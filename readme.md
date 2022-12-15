@@ -10,13 +10,13 @@ TODO: implement exceptions.
 `int[] sequence`, `int length`
 
 ### Constructors
-* `Sequence()`
+* `Sequence()`:  
   Will create an empty sequence.
-* `Sequence(int sequence_length, boolean initialise_random)`
+* `Sequence(int sequence_length, boolean initialise_random)`:  
   Will create an empty sequence of length `sequence_length`. If `intialise_random` is set to `true`, the values will be initialised to integers in range [ $0, 10 \times$ `sequence_length`].
-* `Sequence(Sequence seq)`
+* `Sequence(Sequence seq)`:  
   Will create a new copy of given sequence object. I don't know why you want to do this.
-* `Sequence(int[] arr)`
+* `Sequence(int[] arr)`:  
   Will create a Sequence object from the given integer array `arr`.
 
 ### Methods
