@@ -34,7 +34,8 @@ TODO: implement exceptions.
 * `Sequence swapped(int i, int j)`
   Creates a Sequence object with elements at indices `i` and `j` swapped. Returns the object.
 * `Sequence subSequence(int i, int j)`, `Sequence index(int i, int j)`
-  Creates a sequence object that is a subsequence of the original from position `i` to `j-1`. Python-style. Returns the object.
+  Creates a sequence object that is a subsequence of the original from position `i` to `j-1`. Python-style. Returns the object.  
+  Reversed subsequence($i > j$) is not implemented yet.
 * `void toString()`, `void println()`, `void print()`:
   Does what you expect.
 
