@@ -13,7 +13,7 @@ TODO: implement exceptions.
 * `Sequence()`
   Will create an empty sequence.
 * `Sequence(int sequence_length, boolean initialise_random)`
-  Will create an empty sequence of length `sequence_length`. If `intialise_random` is set to `true`, the values will be initialised to integers in range [$0, 10 \times$`sequence_length`].
+  Will create an empty sequence of length `sequence_length`. If `intialise_random` is set to `true`, the values will be initialised to integers in range [ $0, 10 \times$ `sequence_length`].
 * `Sequence(Sequence seq)`
   Will create a new copy of given sequence object. I don't know why you want to do this.
 * `Sequence(int[] arr)`
@@ -35,7 +35,7 @@ TODO: implement exceptions.
   Creates a Sequence object with elements at indices `i` and `j` swapped. Returns the object.
 * `Sequence subSequence(int i, int j)`, `Sequence index(int i, int j)`
   Creates a sequence object that is a subsequence of the original from position `i` to `j-1`. Python-style. Returns the object.  
-  Reversed subsequence($i > j$) is not implemented yet.
+  Reversed subsequence( $i > j$ ) is not implemented yet.
 * `void toString()`, `void println()`, `void print()`:
   Does what you expect.
 
