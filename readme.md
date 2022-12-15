@@ -2,6 +2,8 @@ I am mostly a python guy, so naturally I just didn't like java arrays. Sue me.
 
 Aims to follow concepts somewhat similar to functional programming (although I know close to nothing about it) while implementing python-like methods of working with arrays.
 
+TODO: implement exceptions.
+
 `class Sequence`
 
 ### Class variables
